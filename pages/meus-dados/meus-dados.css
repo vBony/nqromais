@@ -1,0 +1,724 @@
+body{
+    background-color: #F3F3F3;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #333333;
+    outline: 0;
+}
+
+input:hover{
+ border-color: none;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* Header */
+#header{
+    border-bottom: 1px solid #00940c;
+    width: 100%;
+    background-color: #ffff;
+}
+
+#headerInv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: auto;
+    padding: 30px;
+}
+
+#headLogo{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 800;
+    color: #318a38;
+    cursor: pointer;
+    align-self: center;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+#userStatusArea{
+    color: #4a4a4a;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    background-color: rgba(50, 168, 82, 0.2);
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#userStatusArea span{
+    color: #00940c;
+}
+
+
+/* Body */
+#body{
+    width: 1280px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+#main-title{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #4a4a4a;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#user-data-area{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid #00940c;
+    border-radius: 10px;
+}
+
+#user-avatar{
+    height: 250px;
+    border-radius: 250px;
+}
+
+#session-opts{
+    display: flex;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #318A38;
+}
+
+#opt-senha{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#opt-dados{
+    margin-right: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#separator{
+    cursor: default;
+}
+
+#avatar_area{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#img-user-area{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+#img-user-area img{
+    width: 250;
+    height: 250px;
+}
+
+.editar-btn.foto{
+    margin: auto;
+    width: 100px;
+}
+
+#form-area{
+    width: 70%;
+}
+
+#name-area{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#div-name{
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    cursor: default;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    height: 55px;
+}
+
+.editar-btn{
+    color: #318a38;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 20%;
+}
+
+.editar-btn:hover{
+    text-decoration: underline;
+}
+
+.user-data-area{
+    display: flex;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    align-items: center;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.user-data-area img{
+
+}
+
+.editar-btn.name{
+    width: 100px;
+}
+
+#user-email, #user-telefone, #user-adress{
+    width: 70%;
+}
+
+.icon-area{
+    width: 10%;
+    height: 32px;
+}
+
+#input-nome{
+    height: 55px;
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    border: 1px solid #D2D2D2;
+    margin-bottom: 30px;
+}
+
+#btn-nome{
+    height: 57px;
+    background-color: white;
+    width: 70px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#btn-nome:hover{
+    color: green;
+}
+
+#form-nome{
+    display: flex;
+}
+
+.btn-cancelar{
+    height: 55px;
+    background-color: white;
+    width: 70px;
+    box-shadow: none;
+    border: none;
+    line-height: 55px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-cancelar:hover{
+    color: red;
+}
+
+#form-email{
+    display:flex;
+    width: 90%;
+}
+
+.form-inputs{
+    height: 28px;
+    width: 70%;
+    flex-direction: row;
+    border: 1px solid #D2D2D2;
+    padding-left: 10px;
+}
+
+.btns-cancelar{
+    font-size: 15px;
+    width: 10%;
+    font-family: 'Nunito Sans' sans-serif;
+    height: 28px !important;
+    text-align: center;
+    box-shadow: none;
+    cursor: pointer;
+    line-height: 28px;
+    transition: 0.2s;
+}
+
+.btns-cancelar:hover{
+    color: red;
+}
+
+.btns-submit{
+    font-size: 15px;
+    width: 10%;
+    font-family: 'Nunito Sans' sans-serif;
+    background-color: white;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btns-submit:hover{
+    color: green;
+}
+
+#form-telefone{
+    display: flex;
+    width: 90%;
+}
+
+.background-window{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#window-cep{
+    align-self: center;
+    background-color: beige;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid #318A38;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#window-cep h4{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 25px;
+    color: #00940c;
+    font-size: 18px;
+}
+
+#error-area{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.cep{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    border: 1px solid #D2D2D2;
+}
+
+.cep-error{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    border: 1px solid red !important;
+}
+
+#estado{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+#cidade{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+#bairro{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+#btn-cep{
+    width: 40%;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #00940c;
+    background-color: #318a38;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#btn-cancel-cep{
+    width: 40%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    background-color: rgb(253, 48, 48);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#btns-cep-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#fixed-error-area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    height: 100%;
+}
+
+#error-fixed-window{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(243,20,49);
+    width: 100%;
+    height: 50px;
+}
+
+#img-error{
+    width: 30%;
+    text-align: center;
+}
+
+#txt-error-area{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 60%;
+    font-weight: bolder;
+}
+
+
+#background-change-photo-area{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+
+}
+
+#change-photo-area{
+    width: 500px;
+    background-color: white;
+    border: 3px solid #00940c;
+    border-radius: 10px;
+    margin: auto;
+    align-self: center;
+}
+
+#change-photo-area h4{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#campo-muda-foto{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    height: 200px;
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgba(0, 148, 12, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#muda-foto{
+    display: none;
+}
+
+#form-foto label{
+    margin: auto;
+    cursor: pointer;
+    width: 100%;
+    border: #00940c solid 3px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#txtlbl{
+    color: #00940c;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#submit-btn-foto{
+    width: 40%;
+    text-align: center;
+    padding: 5px;
+    background-color: #00940c;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s;
+    border: none;
+}
+
+#submit-btn-foto:hover{
+    background-color: #04db14;
+}
+
+#btns-area-foto-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn-cancelar-foto{
+    width: 40%;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(253, 48, 48);
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+#btn-cancelar-foto:hover{
+    background-color: #8c0101;
+}
+
+#user-seg-area{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid #00940c;
+    border-radius: 10px;
+}
+
+#area-alterar-senha{
+    margin-left: 50px;
+}
+
+#area-alterar-senha h3{
+    font-size: 25px;
+    color: #4a4a4a;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+#area-alterar-senha p{
+    width: 70%;
+    color: #999999;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#btn-alterar-senha{
+    color: white;
+    border: none;
+    width: 250px;
+    height: 45px;
+    background-color: #318A38;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.2s;
+}
+
+#btn-alterar-senha:hover{
+    background-color: #00940c;
+}
+
+#background-window-senha{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#window-alterar-senha{
+    align-self: center;
+    background-color: beige;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid #318A38;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#window-alterar-senha h3{
+    font-size: 20px;
+    color: #4a4a4a;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+#window-alterar-senha p{
+    width: 70%;
+    color: #999999;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#form-senha{
+    width: 80%;
+}
+
+.label-senha{
+    color: #4a4a4a;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+.input-senha-nova-default{
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.input-senha-nova-error{
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid red !important;
+}
+
+.input-senha-atual-default{
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.input-senha-atual-error{
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid red !important;
+}
+
+
+.error-area-senha-default{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.error-area-senha-success{
+    color: green !important;
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#btn-area-seg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#enviar-btn{
+    color: white;
+    border: none;
+    width: 250px;
+    height: 45px;
+    background-color: #318A38;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#enviar-btn:hover{
+    background-color: #00940c;
+}
+
+#cancelar-btn{
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#cancelar-btn:hover{
+    text-decoration: underline;
+}
+

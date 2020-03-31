@@ -1,0 +1,393 @@
+/* Global */
+* {
+  padding: 0px;
+  margin: 0px
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited{
+  color: #4a4a4a;
+}
+
+body{
+  background-color: #F3F3F3;
+}
+
+
+/* Header */
+#headerBackground{
+  background-color: white;
+  width: 100%;
+  border-bottom: 2px solid #2bb836;
+}
+
+#headerInv{
+  padding: 30px;
+  width: 70%;
+  margin: auto;
+}
+
+#headerLogo{
+  font-size: 40px;
+  margin-left: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  color: #318a38;
+  cursor: pointer;
+  align-self: center;
+}
+
+#headerInv{
+  display: flex;
+  justify-content: space-between;
+}
+
+#headerMenuArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#anunciarBtn{
+  display: flex;
+  background-color: #318a38;
+  padding: 10px;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 120px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  justify-content: center;
+  align-items: center;
+}
+
+#anunciarBtn:hover{
+  background-color: #2bb836;
+}
+
+#userStatus{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 80px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #4A4A4A;
+  font-size: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+#areaLogin{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 80px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #4A4A4A;
+  font-size: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.imgsMenu{
+  height: 32px;
+  margin-right: 8px;
+}
+
+#meusAnunciosArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #4A4A4A;
+  font-size: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+#userAvatar{
+  height: 45px;
+  border-radius: 45px;
+}
+
+#seta{
+  margin-left: 10px;
+}
+#seta img{
+  height: 12px;
+}
+
+#userName{
+  display: flex;
+  color: #4A4A4A;
+}
+
+#meusAnunciosText{
+  color: #4A4A4A;
+}
+
+#meusAnunciosText:hover{
+  color: #318a38;
+}
+
+#userOpts{
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 80px;
+  right: 440px;
+  box-shadow: 0px 0px 13px 1px rgba(199,199,199,0.63);
+}
+
+.on{
+  display: block !important;
+}
+
+.off{
+  display: none !important;
+}
+
+#userOpts li a{
+  color: #4A4A4A !important;
+  text-decoration: none;
+  font-family: 'Nunita Sans', sans-serif;
+}
+
+#userArea{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#userOpts li{
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#userOpts li:hover{
+  background-color: #F9F9F9;
+}
+
+#userOpts li a:hover{
+  color: #318a38 !important;
+}
+
+.endC{
+  border-bottom: solid 1px rgba(74, 74, 74, 0.5);
+}
+
+
+
+
+/* AREA DE PESQUISA */
+#seachBackground{
+  width: 100%;
+  background-color: #318a38;
+}
+
+
+
+
+/* Classes e IDs Pai DAS BOXES*/
+#boxesArea {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boxesTitle {
+  color: #f9f2e8;
+  font-family: 'RaleWay', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.boxesText {
+  width: 500px;
+  margin: auto;
+  color: #f9f2e8;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 900;
+}
+
+.boxesBtn {
+  width: 70%;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 30px;
+  color: white;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.boxesImg img {
+  width: 80px;
+}
+
+.boxesImg {
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#subBoxeArea {
+  height: 225px;
+  width: 100%;
+  background-color: #f3f3f3;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  border-radius: 5px;
+
+}
+
+.imgBenefs {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgBenefs img {
+  width: 48px;
+}
+
+.txtBenefs {
+  width: 230px;
+  color: #f9f2e8;
+  font-size: 18px;
+}
+
+/* Body */
+
+#bodyArea{
+  width: 1340px;
+  margin: auto;
+}
+
+#body1-title{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 35px;
+  color: #4a4a4a;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+
+#tabela-anuncios{
+  border-collapse: collapse;
+  width: 250px;
+  margin: auto;
+  width: 80%;
+  border-top-left-radius: 15px;
+}
+
+.th-table{
+  padding: 18px;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.th-table.left{
+  border-top-left-radius: 5px;
+}
+
+.th-table.right{
+  border-top-right-radius: 5px;
+}
+
+#title-table{
+  background-color: #318a38;
+}
+
+.td-table{
+  font-family: 'Nunito Sans';
+  color: #4a4a4a;
+  font-size: 15px;
+  padding: 15px;
+  background-color: white;
+}
+
+.td-table.img{
+  text-align: center;
+}
+
+/* FOOTER */
+#footer-area{
+  width: 100%;
+  border-top: 1px solid rgb(234, 234, 234);
+  margin-top: 80px;
+}
+
+#footerInv{
+  width: 70%;
+  margin: auto;
+}
+
+#footerInv span{
+  color: #4a4a4a;
+  font-family: 'Nunito Sans';
+  font-size: 13px;
+}
+
+#container1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 50px;
+}
+
+#span-footer{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#footer-items tr{
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  font-family: 'Nunito Sans';
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.footer-item-options{
+  color: #4a4a4a;
+  transition: 0.2s;
+}
+
+.footer-item-options:hover{
+  color: #1f1f1f;
+}
+
+#footerInv span{
+  color: #4a4a4a;
+}
+
+#footer-imgs{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}

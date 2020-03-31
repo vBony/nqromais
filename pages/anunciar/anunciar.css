@@ -1,0 +1,215 @@
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #333333;
+    outline: 0;
+} 
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#headerInv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: auto;
+    padding: 30px;
+}
+
+#header{
+    border-bottom: 1px solid #00940c;
+    width: 100%;
+}
+
+#headLogo{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 800;
+    color: #318a38;
+    cursor: pointer;
+    align-self: center;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#userStatusArea{
+    color: #4a4a4a;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    background-color: rgba(50, 168, 82, 0.2);
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#userStatusArea span{
+    color: #00940c;
+}
+
+#title{
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #4a4a4a;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+
+#formArea{
+    width: 1280px;
+    margin: auto;
+    font-family: "Nunito Sans", sans-serif;
+    border: 1px solid #E5E5E5;
+}
+
+.inputKit{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.titleForInput{
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Nunito Sans";
+    margin-bottom: 5px;
+}
+
+.titleForInput.local{
+    margin-bottom: 15px;
+}
+
+
+.inputs{
+    width: 600px;
+    padding: 10px 10px 10px 16px;
+    color: #4a4a4a !important;
+    border: solid 1px #D2D2D2;
+    border-radius: 5px;
+}
+
+.inputsError{
+    width: 600px;
+    padding: 10px 10px 10px 16px;
+    color: #4a4a4a !important;
+    border: solid 1px red !important;
+    border-radius: 5px;
+}
+
+#cep{
+    width: 12ch;
+}
+
+.errorArea{
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(255, 68, 68);
+    font-size: 12px !important;
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+.inputs.desc{
+    width: -26px;
+    resize: none;
+}
+
+#numTelefone{
+    color: #4a4a4a;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#preco{
+    width: 20ch;
+}
+
+#subTfotos{
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+#fotos{
+    padding: 15px;
+    border: 1px solid #D2D2D2;
+    border-radius: 5px;
+}
+
+#footer{
+    width: 100%;
+}
+
+#footerInv{
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Nunito Sans", sans-serif;
+    color: #4a4a4a;
+    padding: 60px;
+    align-items: center;
+}
+
+#footerInv a{
+    text-decoration: none;
+}
+
+#btnSubmit{
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    background-color: #4BB543;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+#btnSubmit:hover{
+    background-color: #2d7828;
+}
+
+#footerTerms{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#btnSubmit:disabled{
+    background-color: #adbdac;
+    cursor: default;
+}
+
+#cidade{
+    width: 200px;
+}
+
+#estado{
+    margin-left: 50px;
+    width: 25px;
+}
+
+#bairro{
+    width: 300px;
+}
+
+#cidade,#estado,#bairro{
+    border: none !important;
+    cursor: default;
+}
+

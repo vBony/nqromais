@@ -1,0 +1,48 @@
+#footerArea{
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(234, 234, 234);
+}
+
+#contentFooterArea{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    flex-flow: row wrap;
+}
+
+#col1Footer{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#col1Footer a{
+    color: #4A4A4A;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+
+#col2Footer{
+    display: flex;
+    width: 50%;
+    margin-top: 50px;
+    justify-content: flex-end;
+}
+
+#col2Footer a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#personalData{
+    width: 100%;
+    margin-top: 50px;
+    color: #4A4A4A;
+    font-size: 13px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}

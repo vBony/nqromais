@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #F9F9F9;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #333333;
+    outline: 0;
+} 
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#cadastroAreaBox{
+    display: flex;
+    flex-direction: column;
+    width: 466px;
+    background-color: white;
+    padding: 24px 56px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#CAtitle{
+    width: 100%;
+    height: 64px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #318a38;
+    cursor: pointer;
+}
+
+#CAsubTitle{
+    width: 100%;
+    line-height: 24px;
+    font-family: "Nunito Sans";
+    color: #4a4a4a;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#formCadastro{
+    width: 100%;
+}
+
+.titleForInputs{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.inputTitle{
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Nunito Sans";
+}
+
+.inputSubTitle{
+    line-height: 24px;
+    font-family: "Nunito Sans";
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 0.7);
+    margin-left: 7px;
+}
+
+.input{
+    width: 100%;
+    height: 48PX;
+    color: #4a4a4a !important;
+    border: solid 1px #d2d2d2;
+    font-size: 17px;
+    text-indent: 8px;
+    border-radius: 5px;
+}
+
+.inputFail{
+    width: 100%;
+    height: 48PX;
+    color: #4a4a4a !important;
+    border: solid 1px red;
+    font-size: 17px;
+    text-indent: 8px;
+    border-radius: 5px;
+
+}
+
+.status.nome, .status.senha, .status.email{
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    color: rgb(255, 68, 68);
+    font-size: 12px !important;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+#btnSubmit{
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    background-color: #4BB543;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#loginLink{
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    color: #4a4a4a;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#loginLink a{
+    font-family: "Nunito Sans" !important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4BB543 !important;
+    text-decoration: none !important;
+}
+
+#TermsAndUses{
+    width: 100%;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+    text-align: center;
+}
+
+#TermsAndUses a{
+    color: #318a38;
+    text-decoration: none;
+}
+
+#FBLoginBtn {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 75%;
+    height: 40px;
+    background-color: #1877F2;
+    color: white;
+    text-decoration: white;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#FBLoginBtn img{
+    height: 30px;
+    margin-left: 25px;
+}
+
+#FBLBText {
+    font-weight: 500;
+    line-height: 40px;
+    word-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 25px;
+}
+
+#ou{
+    color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    font-size: 18px;
+    font-family: "Nunito Sans" !important;
+}
